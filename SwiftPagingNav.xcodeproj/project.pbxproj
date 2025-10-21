@@ -150,14 +150,16 @@
 		7E3BFB551A044A17003C336F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = "Aubrey Johnson / Chad Timmerman";
 				TargetAttributes = {
 					7E3BFB5C1A044A17003C336F = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 1600;
 					};
 					7E3BFB6C1A044A17003C336F = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 1600;
 						TestTargetID = 7E3BFB5C1A044A17003C336F;
 					};
 				};
@@ -262,11 +264,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.2;
 			};
 			name = Debug;
 		};
@@ -298,9 +301,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
